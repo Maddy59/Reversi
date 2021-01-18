@@ -16,7 +16,7 @@ Il se joue sur un plateau unicolore de 64 cases, 8 sur 8. Les joueurs disposent 
 bicolores, noirs d'un côté et blancs de l'autre. En début de partie, quatre pions sont déjà
 placés au centre du plateau dans la position suivante :  
 
-![1](1.png)  
+![1](1.PNG)  
 
 >Chaque joueur, noir et blanc, pose l'un après l'autre un pion de sa couleur sur le plateau de
 jeu selon des règles précises. Le jeu s'arrête quand les deux joueurs ne peuvent plus poser
@@ -66,7 +66,7 @@ Le constructeur initialise le plateau de jeu en configuration de début de parti
 La méthode d’instance afficher() écrit sur la console les scores et dessine le
 plateau de jeu de la manière suivante :  
 
-![2](2.png)  
+![2](2.PNG)  
 
 La méthode tester() prend en paramètre un pion et deux coordonnées et
 retourne un entier correspondant au nombre de pions qui changeraient de couleur
@@ -81,9 +81,9 @@ positionne le pion et change la couleur de tous les pions capturés par ce coup.
 Enfin, la méthode jouer() crée deux joueurs et les fait jouer à tour de rôle.  
 Exemple de début de partie :  
 
-![3](3.png)    
-![4](4.png)  
-![5](5.png)  
+![3](3.PNG)    
+![4](4.PNG)  
+![5](5.PNG)  
 
 4 - Les différents types de joueurs :  
 Créer une interface Joueur avec deux méthodes :  
@@ -110,7 +110,7 @@ actions communes à tous ces plateaux de jeu (affichage, modification d’une ca
 consultation d’une case). Ce qui change entre tous ces plateaux de jeu, ce sont les pions
 qui sont posés sur les cases. Cela sera donc paramétré par un type générique.  
 
-![6](6.png) 
+![6](6.PNG) 
 ***************************************************************
 Indications  
 1 - Création du projet :  
@@ -129,7 +129,7 @@ Cette classe possède trois attributs : la largeur et la hauteur du plateau de j
 qu’une liste d’éléments de type T représentant les pions sur le plateau de jeu. La
 liste n’ayant qu’une dimension, les lignes du plateau de jeu sont placées dans celleci les unes à la suite des autres.
 
-![7](7.png)  
+![7](7.PNG)  
 
 Une case de coordonnées (basées à partir de zéro) ligne y colonne x aura pour
 position dans la liste y × nbColonnes + x.  
